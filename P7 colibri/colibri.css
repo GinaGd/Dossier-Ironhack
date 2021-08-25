@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+body{
+    display: flex;
+    background: #6A831E;
+    border: solid #37b11e 1px;
+    width: 100vw;
+    /*height: 100vh;*/
+
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.PARENTvrtc{
+    flex-direction: column;
+}
+.hrztl{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+div{
+    display: flex;
+}
+
+
+
+main{
+    /*dessine moi l'enfant*/
+    width: 80%;
+    height: 80%;
+    flex-grow: 1;
+
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+
+    flex-wrap: wrap;
+    align-content: space-between;
+ }
+
+ img{
+     width: 100%;
+ }
+ h1, h2,h3,p {
+     color: rgb(255, 255, 255);
+     width: 100%;
+     /*border: solid #0D0D0D 1px;*/
+
+ }
+
+ h1,h2{
+    font-family:playball;
+ }
+
+ section{
+     /*background:url(Frame\ 4.png);*/
+    background-image:url('https://images.unsplash.com/photo-1608478497783-158b45d36042?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+     background-size: cover;
+     background-repeat: no-repeat;
+     /*border: solid #0D0D0D 1px;*/
+    height: 350PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+
+ .ctr{
+     align-items: center;
+     /*border: solid #0D0D0D 1px;*/
+ }
+ .imgcard{
+     width: 50px;
+     height: 50px;
+ }
+ .card{
+    border: solid #0D0D0D 1px;
+    background: #556918;
+    padding: 23px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+;
+
+ }
+ /* voir les contraintres
+ DE PLUS JE VEUX QU4IL PRENNE LA TAILLE DE  son contenu
+ pourquoi il met des marges par defaut?*/
